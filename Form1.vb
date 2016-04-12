@@ -29,7 +29,6 @@ Public Class Form1
 
             PostDataToOperator(dc.InnerXml.ToString())
 
-
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
@@ -96,6 +95,7 @@ Public Class Form1
             Me.ExtXML.Text = Content
 
             Me.ConsTxt.Text = "Data received..."
+            Me.ConsTxt.BackColor = Color.Green
 
         Catch ex As Exception
 

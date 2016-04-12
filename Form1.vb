@@ -91,11 +91,10 @@ Public Class Form1
 
             postBuffer = Nothing
 
-
             Me.ExtXML.Text = Content
 
             Me.ConsTxt.Text = "Data received..."
-            Me.ConsTxt.BackColor = Color.Green
+            Me.ConsTxt.BackColor = Color.LightGreen
 
         Catch ex As Exception
 

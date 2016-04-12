@@ -1,0 +1,4 @@
+﻿<data>
+<action value="ADDTRANSACTION" token="123x"/>
+<pak opID="123" username="username" usercode="usercode" Type="bet" transactionID="123" value="100" comment="roundID123" gameCode="AG_LiveRoulette"/>
+</data>

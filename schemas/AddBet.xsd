@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <!-- XML Schema Generated from XML Document on Tue Apr 12 2016 13:10:06 GMT+0200 (Central Europe Daylight Time) -->
+         <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+         <xs:element name="data">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="action">
+                                 <xs:complexType>
+                                       <xs:attribute name="value" type="xs:string"></xs:attribute>
+                                       <xs:attribute name="token" type="xs:string"></xs:attribute>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="pak">
+                                 <xs:complexType>
+                                       <xs:attribute name="opID" type="xs:int"></xs:attribute>
+                                       <xs:attribute name="username" type="xs:string"></xs:attribute>
+                                       <xs:attribute name="usercode" type="xs:int"></xs:attribute>
+                                       <xs:attribute name="Type" type="xs:string"></xs:attribute>
+                                       <xs:attribute name="transactionID" type="xs:int"></xs:attribute>
+                                       <xs:attribute name="value" type="xs:int"></xs:attribute>
+                                       <xs:attribute name="comment" type="xs:string"></xs:attribute>
+                                       <xs:attribute name="gameCode" type="xs:string"></xs:attribute>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>

@@ -1,0 +1,4 @@
+﻿<data>
+  <action value="GETBALANCE" token="123xyz"/>
+  <pak username="[username]"></pak>
+</data>
